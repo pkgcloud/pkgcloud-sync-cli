@@ -1,0 +1,32 @@
+{
+  "name": "pkgcloud-sync-cli",
+  "version": "1.0.0",
+  "description": "A command line interface for syncing cloud storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pkgcloud-sync": "./index.js"
+  },
+  "keywords": [
+    "cloud",
+    "sync",
+    "storage",
+    "pkgcloud",
+    "s3",
+    "cloud-files",
+    "aws"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/pkgcloud/pkgcloud-sync-cli.git"
+  },
+  "author": "Ken Perkins <ken.perkins@rackspace.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pkgcloud-sync": "1.0.x",
+    "commander": "~2.3.0",
+    "winston": "~0.7.3"
+  }
+}
